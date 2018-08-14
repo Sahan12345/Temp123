@@ -1,0 +1,121 @@
+{
+  "_id" : "5b508db05b6d190d6c721556",
+  "_v" : 4,
+  "_tc" : 1532005815227,
+  "_tu" : 1532005815885,
+  "_f" : "ACTIVE",
+  "_orgId" : "5b503e525b6d1909bf187b7b",
+  "_ownerId" : "5b503e525b6d1909bf187b7d",
+  "shortId" : "A191",
+  "name" : "POA",
+  "description" : "POA-5b508d9e5b6d190d6c721550",
+  "filename" : "input.pdf",
+  "pages" : [ {
+    "pageNumber" : 0,
+    "pageImage_url" : "http://localhost:8080/vts/ref/5b503e525b6d1909bf187b7b/a/5b508d9e5b6d190d6c721550/d/5b508db05b6d190d6c721556/Page_0.png",
+    "needsInput" : false,
+    "pagePosition" : {
+      "top" : 0,
+      "left" : 0,
+      "width" : 793,
+      "height" : 1123
+    }
+  }, {
+    "pageNumber" : 1,
+    "pageImage_url" : "http://localhost:8080/vts/ref/5b503e525b6d1909bf187b7b/a/5b508d9e5b6d190d6c721550/d/5b508db05b6d190d6c721556/Page_1.png",
+    "needsInput" : true,
+    "fields" : [ {
+      "kind" : {
+        "type" : "VIDEO",
+        "name" : "viditure",
+        "fieldImage_url" : "https://go.viditure.com//UIFLOW/images/viditure-arrow.png"
+      },
+      "fieldPosition" : "1.0",
+      "required" : true,
+      "screenPos" : {
+        "top" : 514,
+        "left" : 100,
+        "width" : 180,
+        "height" : 122
+      },
+      "minVideoSeconds" : 4,
+      "maxVideoSeconds" : 11,
+      "text" : false,
+      "video" : true,
+      "image" : false
+    }, {
+      "kind" : {
+        "type" : "IMAGE",
+        "name" : "handsignature",
+        "fieldImage_url" : "https://go.viditure.com//UIFLOW/images/handsignature-arrow.png"
+      },
+      "fieldPosition" : "1.1",
+      "required" : true,
+      "screenPos" : {
+        "top" : 503,
+        "left" : 284,
+        "width" : 200,
+        "height" : 100
+      },
+      "prompt" : "draw_sign",
+      "name" : "draw_sign",
+      "text" : false,
+      "video" : false,
+      "image" : true
+    } ],
+    "pagePosition" : {
+      "top" : 0,
+      "left" : 0,
+      "width" : 793,
+      "height" : 1123
+    }
+  } ],
+  "pageCount" : 2,
+  "isLoading" : false,
+  "permissions" : [ "EDIT", "DELETE", "CREATE_TEMPLATE", "RESEND" ],
+  "ownerName" : "Sonia Sotomayer",
+  "self_url" : "http://localhost:8080/vts/documents/5b508db05b6d190d6c721556",
+  "docReSend_url" : "http://localhost:8080/vts/documents/5b508db05b6d190d6c721556/notify",
+  "_orgName" : "Supreme Court",
+  "state" : "SIGNED",
+  "signingStatusString" : "All 1 signed",
+
+  "allRecipients" : [ {
+    "signerview_url" : "http://localhost:8080/vts/documents/5b508db05b6d190d6c721556/recipients/5b508db75b6d190d6c721557",
+    "signedView_url" : "http://localhost:8080/vts/signedview/5b508dd05b6d190d6c721558",
+    "docReSend_url" : "http://localhost:8080/vts/documents/5b508db05b6d190d6c721556/recipients/5b508db75b6d190d6c721557/notify",
+    "timeSigned" : 1532005840650,
+    "timeAccessed" : 1532005840650,
+    "_id" : "5b508db75b6d190d6c721557",
+    "_userId" : "5b503e8d5b6d1909bf187bb3",
+    "fullName" : "Sonia Sotomayer",
+    "cname" : "dr",
+    "fieldInputs" : [ {
+      "fieldPosition" : "1.0",
+      "data" : "Sonia Sotomayer",
+      "prompt" : "I <SignerName>Sonia Sotomayer</SignerName> agree to Document Number <DocShortId>A191</DocShortId> in reference to <DocName>POA</DocName>",
+      "signerVideo_url" : "http://localhost:8080/vts/ref/5b503e525b6d1909bf187b7b/a/5b508d9e5b6d190d6c721550/d/5b508db05b6d190d6c721556/r/5b508db75b6d190d6c721557/f/1.0/viditure.mp4",
+      "signerSnapshot_url" : "http://localhost:8080/vts/ref/5b503e525b6d1909bf187b7b/a/5b508d9e5b6d190d6c721550/d/5b508db05b6d190d6c721556/r/5b508db75b6d190d6c721557/f/1.0/snapshot.jpg",
+      "state" : "FILLED"
+    }, {
+      "fieldPosition" : "1.1",
+      "prompt" : "draw_sign",
+      "image_url" : "http://localhost:8080/vts/ref/5b503e525b6d1909bf187b7b/a/5b508d9e5b6d190d6c721550/d/5b508db05b6d190d6c721556/r/5b508db75b6d190d6c721557/f/1.1/image.jpg",
+      "state" : "FILLED"
+    } ],
+    "geo" : {
+      "remoteIP" : "127.0.0.1",
+      "remoteHost" : "127.0.0.1",
+      "device" : "Apache-HttpClient/4.5.5 (Java/1.8.0_172)"
+    },
+    "state" : "SIGNED",
+    "readyToSign" : false,
+    "email" : "sonia@sotomayer.com",
+    "signRequired" : false,
+    "timeSignedFormatted" : "Thu, Jul 19, 2018 at 06:40:40 PM IST"
+  } ],
+
+  "_applicationId" : "5b508d9e5b6d190d6c721550",
+  "hasSequence" : false,
+  "signedDoc_url" : "http://localhost:8080/vts/documents/5b508db05b6d190d6c721556/signeddocs"
+}
