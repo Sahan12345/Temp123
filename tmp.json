@@ -1,0 +1,189 @@
+{
+  "_id" : "5b6d304a5b6d190f6218be6f",
+  "_v" : 2,
+  "_tc" : 1533882442841,
+  "_tu" : 1533882442870,
+  "_f" : "ACTIVE",
+  "_orgId" : "5b6ab6d45b6d19085df7b32a",
+  "_ownerId" : "5b6ab6d45b6d19085df7b32c",
+  "shortId" : "ID-A1B2",
+  "name" : "Id, ETHIOPIAN_CITIZEN",
+  "description" : "ETHIOPIAN_CITIZEN",
+  "filename" : "input.pdf",
+  "pages" : [ {
+    "pageNumber" : 0,
+    "pageImage_url" : "http://localhost:8080/vts/ref/5b6ab6d45b6d19085df7b32a/a/5b6d2fee5b6d190f6218be5e/d/5b6d304a5b6d190f6218be6f/Page_0.png",
+    "needsInput" : true,
+    "fields" : [ {
+      "kind" : {
+        "type" : "TEXT",
+        "name" : "addaline",
+        "fieldImage_url" : "https://go.viditure.com//UIFLOW/images/addaline-arrow.png"
+      },
+      "fieldPosition" : "0.0",
+      "required" : true,
+      "screenPos" : {
+        "top" : 168,
+        "left" : 344,
+        "width" : 410,
+        "height" : 15
+      },
+      "prompt" : "NATIONALITY",
+      "preFill" : false,
+      "text" : true,
+      "video" : false,
+      "image" : false
+    }, {
+      "kind" : {
+        "type" : "TEXT",
+        "name" : "addaline",
+        "fieldImage_url" : "https://go.viditure.com//UIFLOW/images/addaline-arrow.png"
+      },
+      "fieldPosition" : "0.1",
+      "required" : true,
+      "screenPos" : {
+        "top" : 190,
+        "left" : 343,
+        "width" : 411,
+        "height" : 15
+      },
+      "prompt" : "ORIGIN_OR_PASSPORT",
+      "preFill" : false,
+      "text" : true,
+      "video" : false,
+      "image" : false
+    }, {
+      "kind" : {
+        "type" : "IMAGE",
+        "name" : "image",
+        "fieldImage_url" : "https://go.viditure.com//UIFLOW/images/image-arrow.png"
+      },
+      "fieldPosition" : "0.2",
+      "required" : true,
+      "screenPos" : {
+        "top" : 438,
+        "left" : 104,
+        "width" : 221,
+        "height" : 218
+      },
+      "prompt" : "PASSPORT_FRONT",
+      "preFill" : false,
+      "name" : "PASSPORT_FRONT",
+      "text" : false,
+      "video" : false,
+      "image" : true
+    }, {
+      "kind" : {
+        "type" : "IMAGE",
+        "name" : "image",
+        "fieldImage_url" : "https://go.viditure.com//UIFLOW/images/image-arrow.png"
+      },
+      "fieldPosition" : "0.3",
+      "required" : true,
+      "screenPos" : {
+        "top" : 686,
+        "left" : 103,
+        "width" : 221,
+        "height" : 211
+      },
+      "prompt" : "GREENCARD_FRONT",
+      "preFill" : false,
+      "name" : "GREENCARD_FRONT",
+      "text" : false,
+      "video" : false,
+      "image" : true
+    }, {
+      "kind" : {
+        "type" : "IMAGE",
+        "name" : "image",
+        "fieldImage_url" : "https://go.viditure.com//UIFLOW/images/image-arrow.png"
+      },
+      "fieldPosition" : "0.4",
+      "required" : true,
+      "screenPos" : {
+        "top" : 690,
+        "left" : 483,
+        "width" : 221,
+        "height" : 220
+      },
+      "prompt" : "GREENCARD_BACK",
+      "preFill" : false,
+      "name" : "GREENCARD_BACK",
+      "text" : false,
+      "video" : false,
+      "image" : true
+    }, {
+      "kind" : {
+        "type" : "IMAGE",
+        "name" : "image",
+        "fieldImage_url" : "https://go.viditure.com//UIFLOW/images/image-arrow.png"
+      },
+      "fieldPosition" : "0.5",
+      "required" : true,
+      "screenPos" : {
+        "top" : 1023,
+        "left" : 518,
+        "width" : 204,
+        "height" : 106
+      },
+      "prompt" : "E_SIGN",
+      "preFill" : false,
+      "name" : "E_SIGN",
+      "text" : false,
+      "video" : false,
+      "image" : true
+    } ],
+    "pagePosition" : {
+      "top" : 0,
+      "left" : 0,
+      "width" : 793,
+      "height" : 1123
+    }
+  } ],
+  "isLoading" : true,
+  "permissions" : [ "EDIT", "CREATE_TEMPLATE", "RESEND", "DELETE" ],
+  "ownerName" : "Sonia Sotomayer",
+  "self_url" : "http://localhost:8080/vts/documents/5b6d304a5b6d190f6218be6f",
+  "docReSend_url" : "http://localhost:8080/vts/documents/5b6d304a5b6d190f6218be6f/notify",
+  "_orgName" : "Supreme Court",
+  "state" : "SENT",
+  "allRecipients" : [ {
+    "signerview_url" : "http://localhost:8080/vts/documents/5b6d304a5b6d190f6218be6f/recipients/5b6d304a5b6d190f6218be70",
+    "signerInput_url" : "http://localhost:8080/vts/documents/5b6d304a5b6d190f6218be6f/recipients/5b6d304a5b6d190f6218be70/signerInputs",
+    "_id" : "5b6d304a5b6d190f6218be70",
+    "_userId" : "5b6bdf155b6d1910d227e919",
+    "fullName" : "Sonia Sotomayer",
+    "cname" : "dr",
+    "fieldInputs" : [ {
+      "fieldPosition" : "0.0",
+      "prompt" : "NATIONALITY",
+      "state" : "NOTFILLED"
+    }, {
+      "fieldPosition" : "0.1",
+      "prompt" : "ORIGIN_OR_PASSPORT",
+      "state" : "NOTFILLED"
+    }, {
+      "fieldPosition" : "0.2",
+      "prompt" : "PASSPORT_FRONT",
+      "state" : "NOTFILLED"
+    }, {
+      "fieldPosition" : "0.3",
+      "prompt" : "GREENCARD_FRONT",
+      "state" : "NOTFILLED"
+    }, {
+      "fieldPosition" : "0.4",
+      "prompt" : "GREENCARD_BACK",
+      "state" : "NOTFILLED"
+    }, {
+      "fieldPosition" : "0.5",
+      "prompt" : "E_SIGN",
+      "state" : "NOTFILLED"
+    } ],
+    "state" : "WAITING",
+    "readyToSign" : false,
+    "email" : "sonia@sotomayer.com",
+    "signRequired" : false
+  } ],
+  "_applicationId" : "5b6d2fee5b6d190f6218be5e",
+  "hasSequence" : false
+}
